@@ -62,13 +62,13 @@ class MainActivity : ComponentActivity() {
     }
     private fun dialPhoneNumber() {
         startActivity(Intent(Intent.ACTION_DIAL).apply {
-            data = Uri.parse("tel: +421 903051759")
+            data = Uri.parse("tel: +421 123456789")
         })
     }
 
     private fun sendEmail() {
         startActivity(Intent(Intent.ACTION_SENDTO).apply {
-            data = Uri.parse("mailto: lassumario2002@gmail.com")
+            data = Uri.parse("mailto: lassumario9999@gmail.com")
         })
     }
 
@@ -138,7 +138,7 @@ fun BusinessCard(
         ) {
             ContactDetail(
                 icon = Icons.Default.Phone,
-                detail = "+421 903051759",
+                detail = "+421 123456789",
                 contentDescription = "Phone number",
                 color = 0xff8d5524,
                 onClick = onPhoneClick // Use the passed lambda here
@@ -152,7 +152,7 @@ fun BusinessCard(
             )
             ContactDetail(
                 icon = Icons.Default.Email,
-                detail = "lassumario2002@gmail.com",
+                detail = "lassumario9999@gmail.com",
                 contentDescription = "Email address",
                 color = 0xffe09b58,
                 onClick = onEmailClick // Use the passed lambda here
