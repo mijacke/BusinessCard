@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.BusinessCard" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/green</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/green</item>
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor">@color/green</item>
+        <!-- If you want icons on the status bar to be light or dark -->
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+</resources>
